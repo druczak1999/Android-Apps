@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="changeWord"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Twoje słowo to: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/wordToSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="24dp"
+        android:text="_ "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="265dp"
+        android:layout_height="281dp"
+
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wordToSearch"
+        app:srcCompat="@drawable/wisielec0" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="408dp"
+        android:layout_height="226dp"
+        android:layout_marginTop="29dp"
+        android:scaleX="0.8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <Button
+            android:id="@+id/buttona"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="a"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/buttoną"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="ą"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/buttonb"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="b"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/buttonc"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="c"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/buttonć"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="ć"
+            app:layout_column="4"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/buttond"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="d"
+            app:layout_column="5"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/buttone"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="e"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/buttonę"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="ę"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/buttonf"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="f"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/buttong"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="g"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/buttonh"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="h"
+            app:layout_column="4"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/buttoni"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="i"
+            app:layout_column="5"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/buttonj"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="j"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/buttonk"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="k"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/buttonl"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="l"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/buttonł"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="ł"
+            app:layout_column="3"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/buttonm"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="m"
+            app:layout_column="4"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/buttonn"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="n"
+            app:layout_column="5"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/buttonń"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="ń"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/buttono"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="o"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/buttonó"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="ó"
+            app:layout_column="2"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/buttonp"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="p"
+            app:layout_column="3"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/buttonr"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="r"
+            app:layout_column="4"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/buttons"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="s"
+            app:layout_column="5"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/buttonś"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="ś"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/buttont"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="t"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/buttonu"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="u"
+            app:layout_column="2"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/buttonw"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="w"
+            app:layout_column="3"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/buttony"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="y"
+            app:layout_column="4"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/buttonz"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="z"
+            app:layout_column="5"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/buttonź"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="ź"
+            app:layout_column="0"
+            app:layout_row="6" />
+
+        <Button
+            android:id="@+id/buttonż"
+            android:layout_width="65dp"
+            android:layout_height="37dp"
+            android:onClick="changeWord"
+            android:text="ż"
+            app:layout_column="1"
+            app:layout_row="6" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/stan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="10dp"
+        android:text="Gra się toczy..."
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
