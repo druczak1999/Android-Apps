@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fiszki</string>
+    <string name="tytul">Zacznijmy!</string>
+    <string name="tytul2">Wybierz język i kategorię</string>
+    <string name="info1">Aplikacja powstała na przełomie </string>
+    <string name="autor">Autor: Aleksandra Druczak</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
